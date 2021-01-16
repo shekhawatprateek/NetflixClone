@@ -1,4 +1,3 @@
-const API_KEY = "53881d2a54cec467c9a221b25c19b3d7";
 import '.env';
 
 const requests = {
