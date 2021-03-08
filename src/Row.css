@@ -17,9 +17,9 @@
 .row__poster {
     width: 100%;
     object-fit: contain;
-    max-width: 100px;
+    max-width: 21%;
     transition: transform 450ms;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .row__poster:hover {
@@ -27,5 +27,18 @@
 }
 
 .row__posterLarge {
-    max-width: 150px;
+    max-width: 200px;
+}
+
+@media (max-width: 500px) {
+    .row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-width: 90%;
+    transition: transform 450ms;
+    margin-right: 15px;
+    }
+    .row__posterLarge {
+        max-width: 190px;
+    }
 }
